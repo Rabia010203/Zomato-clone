@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "Souvik Roy",
+  "author": "Rabia Anjum",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^8.2.0",

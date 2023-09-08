@@ -17,7 +17,7 @@ app.use("/api", AppRouter);
 
 const PORT = 3040;
 const MONGO_DB_URI =
-  "mongodb+srv://souvik2018roy:7BRMTXpQgwK6mPvI@cluster0.a8clkoy.mongodb.net/zomatoDB";
+  "mongodb+srv://lovely:lovely@cluster0.vxxkcf8.mongodb.net/zomatoDB";
 mongoose
   .connect(MONGO_DB_URI)
   .then(() => {
@@ -29,3 +29,4 @@ mongoose
   .catch((error) => {
     console.log(error);
   });
+  
